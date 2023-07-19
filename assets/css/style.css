@@ -60,3 +60,7 @@ header nav a{
 .right-menu ul{
     border-right: 1px solid #ddd;
 }
+
+.logo a img{
+    height: 145px;
+}
