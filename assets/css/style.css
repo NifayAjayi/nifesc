@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
-  Helvetica, Arial, "Lucida Grande", sans-serif;
+    Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 header{
@@ -12,26 +12,31 @@ header{
 
 }
 
-header nav{
+header .sub-menu{
     display:flex;
     justify-content: space-between;
-    margin: 8px 0px 8px 20px;
+    margin: 2px 0px 5px 20px;
     border-bottom: 1px solid #ddd;
 }
 
-header nav .sponsors img{
-    height: 32px; 
+header .sub-menu .sponsors img{
+    height: 32px;
+    margin: 5px 0px 0px 0px; 
  
 }
 
 .right-menu li{
     display: inline-block;
-    padding: 12px 12px;
+    padding: 12px 12px 12px 12px;
 
 }
 
 .right-menu{
     display: flex;
+}
+
+.right-menu ul:first-child{
+    border-right: 1px solid #ddd;
 }
 
 .right-menu a{
@@ -43,20 +48,17 @@ header nav .sponsors img{
     transition: all 1s ease;
 }
 
-header a:hover{
+.sub-menu a:hover{
     text-decoration: underline;
 }
 
-header nav a{
+header .sub-menu a{
     text-decoration: none;
     font-size: 20px;
     font-size: .875rem;
     line-height: 1.428;
     font-weight: 400;
     color: #140a47;
-    padding: 12px 0px;
+    padding: 12px 0px 12px 0px;
 }
 
-.right-menu ul{
-    border-right: 1px solid #ddd;
-}
