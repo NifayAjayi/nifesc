@@ -40,6 +40,11 @@ header nav .sponsors img{
     line-height: 1.428;
     font-weight: 400;
     color: #140a47;
+    transition: all 1s ease;
+}
+
+header a:hover{
+    text-decoration: underline;
 }
 
 header nav a{
