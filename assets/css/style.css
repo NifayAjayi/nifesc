@@ -13,11 +13,34 @@ header{
 }
 
 header nav{
-    display: flex;
+    display:flex;
     justify-content: space-between;
 }
 
 header nav .sponsors img{
-    height: 32px; ;
-    
+    height: 32px; 
+ 
+}
+
+.right-menu li{
+    display: inline-block;
+    padding: 12px 12px;
+
+}
+
+.right-menu{
+    display: flex;
+}
+
+.right-menu a{
+    text-decoration: none;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 400;
+    color: #140A47;
+}
+
+header nav a{
+    text-decoration: none;
+    font-size: 20px;
 }
