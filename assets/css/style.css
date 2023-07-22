@@ -75,11 +75,19 @@ header .sub-menu a{
     text-decoration: none;
     font-size: 1.125rem;
     font-weight: 700;
-    color: #001489;
+    color: black;
     white-space: nowrap;
     line-height: 3.333;
+ 
 }
 
 .middle-menu ul>li{
     padding: 0px 22px;
+    display: inline-block;
 }
+
+.main-menu{
+    display: flex;
+
+}
+
