@@ -6,6 +6,10 @@
     <title>Nife FC - Home</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/css/splide.min.css">
+    <link rel="stylesheet" href="../assets/css/splide-core.min.css">
+    <link rel="stylesheet" href="../assets/css/slider.css">
+    <script src="../assets/js/splide.min.js"></script>
 </head>
 <body>
     <header>
@@ -57,10 +61,42 @@
         </div>
       </nav>
 
+      <!-- Image Slider -->
+
+      <div id="thumbnail-slider" class="splide">
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide">
+                      <img src="../assets/img/slider/slide1.jpg">
+                      <div>
+                        Description 01
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                      <img src="../assets/img/slider/slide2.jpg">
+                      <div>
+                        Description 02
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                      <img src="../assets/img/slider/slide3.jpg">
+                      <div>
+                        Description 03
+                    </div>
+                  </li>
+              </ul>
+        </div>
+
+        <div class="splide__progress">
+            <div class="splide__progress__bar">
+            </div>
+        </div>
+      </div>
     </header>
    
 </head>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="../assets/js/slider.js"></script>
 </body>
 </html>
