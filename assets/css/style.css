@@ -86,8 +86,13 @@ header .sub-menu a{
 }
 
 .middle-menu ul>li{
+<<<<<<< Updated upstream
     padding: 10px 30px;
+=======
+    padding: 25px 22px;
+>>>>>>> Stashed changes
     display: inline-block;
+    
 }
 
 .middle-menu ul>li::after{
@@ -120,6 +125,7 @@ header .sub-menu a{
 .main-menu{
     display: flex;
     justify-content: space-between;
+<<<<<<< Updated upstream
 }
 
 .bar{
@@ -152,3 +158,10 @@ nav{
     margin: 0;
     padding: 0;
 }
+=======
+
+
+}
+
+
+>>>>>>> Stashed changes
