@@ -11,12 +11,12 @@ let splide = new Splide( '#thumbnail-slider', {
     pauseOnFocus: false,
     pagination: true,
     focus      : 'center',
-    breakpoints: {
-        600: {
-        fixedWidth : 60,
-        fixedHeight: 44,
-        },
-    },
+    // breakpoints: {
+    //     600: {
+    //     fixedWidth : 60,
+    //     fixedHeight: 44,
+    //     },
+    // },
 } ).mount();
 
 let toggleButton = splide.root.querySelector( '.my-toggle-button' );
